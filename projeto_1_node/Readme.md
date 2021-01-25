@@ -1,7 +1,7 @@
 # Projeto 1
   - O projeto 1 é a implementação da resolução do problea 1122 do uri.
   - Minhas implementações do algoritmo em Python e C++ estão disponíveis em: https://github.com/loribeiro/Respostas_URI/tree/main/1122
-  
+  - Descrição do problema e casos de teste: https://www.urionlinejudge.com.br/judge/pt/problems/view/1122#
 # No que consiste?
   Aplicação Node.Js que funciona tanto em modo de texto(terminal) quanto como um simples servidor http.
 
