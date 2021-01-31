@@ -2,7 +2,7 @@
 
 function removerAcentosStream(chunk){
   const removerAcentos = require("./lib/remove_acentos") 
-  const lista_palavras = chunk.split(" ")
+  const lista_palavras = chunk.replace(/\r?\n|\r/g," ").split(" ")
   var texto_tratado = ""
 
   for(let i =0; i<lista_palavras.length; i++){
@@ -12,7 +12,7 @@ function removerAcentosStream(chunk){
                         + removerAcentos(palavra) + (classe === undefined ? "" : ("_" + classe)) 
   }  
   
-  return texto_tratado
+  return texto_tratado //.replace(/---/g,"\n")
   
 }
 
