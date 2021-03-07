@@ -1,6 +1,7 @@
 # Projetos_Node_Treinamento
 Repositório criado para praticar os conceitos fundamentais de Node.JS
-OBS: Os tópicos "Padrões Assincronos" e Streams já foram cobertos no projeto Singularity Tagger
+
+- OBS: Os tópicos "Padrões Assincronos" e Streams já foram cobertos no projeto Singularity Tagger
 disponível no link: https://github.com/loribeiro/Singularity-POS-Tagger
 Por tanto o objetivo deste respositório está concluido.
 
